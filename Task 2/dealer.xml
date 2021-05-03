@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE dealerKitaAja [
+<!ELEMENT dealer (kode, nama, stok, harga, kategori)>
+<!ELEMENT kode (#PCDATA)>
+<!ELEMENT nama (#PCDATA)>
+<!ELEMENT stok (#PCDATA)>
+<!ELEMENT harga (#PCDATA)>
+<!ATTLIST harga disc CDATA #REQUIRED>
+<!ELEMENT kategori (#PCDATA)>
+]>
+<dealerKitaAja>
+	<dealer>
+			<kode>0001</kode>
+			<nama>Toyota 86</nama>
+			<stok>2</stok>
+			<harga disc="5/100">775750000</harga>
+			<kategori>Mobil</kategori>
+	</dealer>
+	<dealer>
+			<kode>0002</kode>
+			<nama>New Vlus</nama>
+			<stok>3</stok>
+			<harga disc="7/100">324950000</harga>
+			<kategori>Mobil</kategori>
+	</dealer>
+	<dealer>
+			<kode>0003</kode>
+			<nama>Land Cruiser</nama>
+			<stok>1</stok>
+			<harga disc="7/100">2213450000</harga>
+			<kategori>Mobil</kategori>
+	</dealer>
+	<dealer>
+			<kode>0004</kode>
+			<nama>New Vellfire</nama>
+			<stok>1</stok>
+			<harga disc="10/100">1210650000</harga>
+			<kategori>Mobil</kategori>
+	</dealer>
+	<dealer>
+			<kode>0005</kode>
+			<nama>Kawasaki Ninja H2</nama>
+			<stok>250</stok>
+			<harga disc="12/100">600000000</harga>
+			<kategori>Motor</kategori>
+	</dealer>
+</dealerKitaAja>
